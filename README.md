@@ -6,6 +6,7 @@
   <img src="./logo.png" alt="Ravenstack Logo" width="300"/>
 </p>
 ---
+
 ## 🏢 Client Background & Analytics Context
 
 **Ravenstack** is a fictional B2B SaaS company operating on a subscription-based revenue model with multiple plan tiers (SMB, Mid-Market, Enterprise). The company has successfully scaled customer acquisition and revenue but is experiencing **increasing uncertainty around growth quality and customer retention**.
