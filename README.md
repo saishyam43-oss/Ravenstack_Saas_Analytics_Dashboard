@@ -107,5 +107,5 @@ Product analysis shows that users often churn **before discovering meaningful va
 Together, these signals indicate that Ravenstack’s growth is **efficient but fragile**, requiring an immediate shift in focus from acquisition to **retention, onboarding, and strategic customer prioritization**.
 
 <p align="center">
-  <img src="./dashboards/01_north_star_growth.png" alt="North Star Growth Dashboard" width="900"/>
+  <img src="./dashboards/01_the_north_star.png" alt="North Star Growth Dashboard" width="900"/>
 </p>
