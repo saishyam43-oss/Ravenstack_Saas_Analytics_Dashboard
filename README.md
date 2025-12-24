@@ -5,6 +5,7 @@
 <p align="center">
   <img src="./logo.png" alt="Ravenstack Logo" width="300"/>
 </p>
+
 ---
 
 ## 🏢 Client Background & Analytics Context
