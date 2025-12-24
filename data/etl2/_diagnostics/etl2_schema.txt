@@ -1,0 +1,796 @@
+=== ETL2 OUTPUT SCHEMA DOCUMENTATION ===
+
+
+----------------------------------------
+TABLE: subscriptions_fe
+Rows: 5350
+Columns: 26
+----------------------------------------
+
+ - subscription_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: S-000001
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-503d5a
+
+ - start_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-05-01 00:00:00
+
+ - end_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 2325 rows (43.46%)
+      sample: 2024-05-31 00:00:00
+
+ - start_month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-05
+
+ - end_month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-05
+
+ - subscription_age_days
+      dtype: Int64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 30
+
+ - subscription_age_months
+      dtype: Int64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 0
+
+ - mrr_clean
+      dtype: float64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - arr_clean
+      dtype: float64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - lifetime_mrr
+      dtype: float64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - churned_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - is_churned
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - churn_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 1578 rows (29.5%)
+      sample: 2024-11-03 00:00:00
+
+ - churn_month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: NaT
+
+ - plan_tier
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: Enterprise
+
+ - seat_bucket
+      dtype: object
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 01_to_10
+
+ - seats
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 7
+
+ - rev_change_flag
+      dtype: object
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: unchanged
+
+ - subscription_status
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: trial
+
+ - is_new
+      dtype: bool
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - is_upgrade
+      dtype: bool
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - is_downgrade
+      dtype: bool
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - dirty_row_flag
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: True
+
+ - dirty_row_reason
+      dtype: object
+      synthetic: False
+      nullable: 83 rows (1.55%)
+      sample: ["trial_capped_at_30_days"]
+
+ - dirty_row_reason_count
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 1
+
+
+----------------------------------------
+TABLE: feature_usage_monthly_fe
+Rows: 22566
+Columns: 10
+----------------------------------------
+
+ - subscription_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: S-001561
+
+ - usage_month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-03
+
+ - usage_count_month
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 8
+
+ - usage_duration_month
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 1872.0
+
+ - unique_features_month
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 1
+
+ - error_count_month
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0
+
+ - days_in_month
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 31
+
+ - duration_per_use
+      dtype: float64
+      synthetic: True
+      nullable: 2 rows (0.01%)
+      sample: 234.0
+
+ - usage_intensity
+      dtype: float64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 0.25806451612903225
+
+ - is_heavy_user_month
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+
+----------------------------------------
+TABLE: feature_usage_feature_monthly_fe
+Rows: 25113
+Columns: 12
+----------------------------------------
+
+ - subscription_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: S-001561
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-1b7577
+
+ - feature_name
+      dtype: object
+      synthetic: False
+      nullable: 191 rows (0.76%)
+      sample: feature_10
+
+ - usage_month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-12
+
+ - usage_count
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 9
+
+ - usage_duration_secs
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 3564
+
+ - first_use_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-12-31 00:00:00
+
+ - last_use_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-12-31 00:00:00
+
+ - error_count
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0
+
+ - is_beta_feature
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - duration_per_use
+      dtype: float64
+      synthetic: True
+      nullable: 18 rows (0.07%)
+      sample: 396.0
+
+ - account_feature_rank
+      dtype: float64
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: 2.0
+
+
+----------------------------------------
+TABLE: feature_first_use_fe
+Rows: 13961
+Columns: 9
+----------------------------------------
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-00bed1
+
+ - feature_name
+      dtype: object
+      synthetic: False
+      nullable: 157 rows (1.12%)
+      sample: feature_1
+
+ - first_use_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-07-20 00:00:00
+
+ - days_to_adopt
+      dtype: Int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 249
+
+ - is_beta_feature
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: True
+
+ - beta_adopter
+      dtype: boolean
+      synthetic: True
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - signup_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-11-14 00:00:00
+
+ - dirty_row_flag
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - dirty_row_reason
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 
+
+
+----------------------------------------
+TABLE: support_events_fe
+Rows: 2140
+Columns: 12
+----------------------------------------
+
+ - ticket_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: T-000001
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-8bde0c
+
+ - submitted_at
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-08-06 00:00:00
+
+ - closed_at
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-08-08 07:00:00
+
+ - resolution_time_hours
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 55
+
+ - priority
+      dtype: object
+      synthetic: False
+      nullable: 17 rows (0.79%)
+      sample: high
+
+ - priority_score
+      dtype: float64
+      synthetic: False
+      nullable: 554 rows (25.89%)
+      sample: 3.0
+
+ - resolution_bucket
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 24-72h
+
+ - escalation_flag
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - satisfaction_score
+      dtype: float64
+      synthetic: False
+      nullable: 900 rows (42.06%)
+      sample: 4.0
+
+ - dirty_row_flag
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - dirty_row_reason
+      dtype: object
+      synthetic: False
+      nullable: 1224 rows (57.2%)
+      sample: ["priority_missing_flagged", "missing_priority"]
+
+
+----------------------------------------
+TABLE: support_fe
+Rows: 492
+Columns: 7
+----------------------------------------
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-00bed1
+
+ - ticket_count
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 5
+
+ - escalated_tickets
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0
+
+ - avg_resolution_hours
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 38.6
+
+ - avg_satisfaction
+      dtype: float64
+      synthetic: False
+      nullable: 26 rows (5.28%)
+      sample: 4.0
+
+ - avg_priority_score
+      dtype: float64
+      synthetic: False
+      nullable: 18 rows (3.66%)
+      sample: 3.0
+
+ - tickets_90_days
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0
+
+
+----------------------------------------
+TABLE: accounts_fe
+Rows: 535
+Columns: 32
+----------------------------------------
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-000001
+
+ - account_name
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: Company_361
+
+ - signup_date
+      dtype: datetime64[ns]
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2023-01-17 00:00:00
+
+ - churn_date
+      dtype: object
+      synthetic: False
+      nullable: 183 rows (34.21%)
+      sample: 03-01-2024
+
+ - total_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - total_arr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - avg_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - max_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - lifetime_gross_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 35 rows (6.54%)
+      sample: 39078.0
+
+ - total_churned_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - num_subscriptions_lifetime
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - num_active_subscriptions
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - num_churns
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - lifetime_days
+      dtype: int64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 1066
+
+ - total_usage_count
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - avg_monthly_active_features
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - ticket_count
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - tickets_90_days
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - avg_resolution_hours
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - avg_satisfaction
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - avg_priority_score
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - escalated_tickets
+      dtype: float64
+      synthetic: False
+      nullable: 43 rows (8.04%)
+      sample: 0.0
+
+ - escalation_rate
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - tickets_per_active_subscription
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - usage_score
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - support_score
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 1.0
+
+ - revenue_score
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+ - health_score
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.3
+
+ - customer_segment
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: SMB
+
+ - dirty_row_flag
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: True
+
+ - dirty_row_reason
+      dtype: object
+      synthetic: False
+      nullable: 352 rows (65.79%)
+      sample: ["native_churn_flag_true_but_no_event"]
+
+ - daily_usage_rate
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0
+
+
+----------------------------------------
+TABLE: cohorts
+Rows: 52115
+Columns: 7
+----------------------------------------
+
+ - subscription_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: S-000002
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-bbc346
+
+ - month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-09
+
+ - mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 3781.0
+
+ - is_churned_month
+      dtype: bool
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: False
+
+ - cohort_month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-09
+
+ - months_since_signup
+      dtype: int32
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0
+
+
+----------------------------------------
+TABLE: cohort_revenue_changes
+Rows: 6727
+Columns: 7
+----------------------------------------
+
+ - subscription_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: S-000002
+
+ - account_id
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: A-bbc346
+
+ - month
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 2024-09
+
+ - change_type
+      dtype: object
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: new
+
+ - change_amount
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 3781.0
+
+ - mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 3781.0
+
+ - prev_mrr
+      dtype: float64
+      synthetic: False
+      nullable: 0 rows (0.0%)
+      sample: 0.0

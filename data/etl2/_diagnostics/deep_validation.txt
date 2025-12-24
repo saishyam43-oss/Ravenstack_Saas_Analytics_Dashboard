@@ -1,0 +1,7 @@
+=== DEEP VALIDATION REPORT ===
+[A1] days_to_adopt = 0 (clamped): 8879
+[A2] first_use_date earlier than signup_date: 0
+[B1] churned but no churn_date: 148
+[B2] active but has churn_date: 0
+[B3] churn_date > end_date: 135
+[C1] negative months_since_signup: 0

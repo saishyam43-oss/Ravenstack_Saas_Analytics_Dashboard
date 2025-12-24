@@ -1,0 +1,18 @@
+ETL2 v4.1 strict validation summary
+Loaded: accounts=535 rows, subs=5350 rows, usage_monthly=22566 rows, feature_month=25113 rows, first_use=13961 rows, support_events=2140 rows, support_agg=492 rows, cohorts=52115 rows, rev_events=6727 rows
+[OK] accounts has required columns
+[OK] subscriptions has required columns
+[OK] usage_monthly has required columns
+[OK] support has required columns
+[INFO] subscription.account_id missing in accounts: 0
+[INFO] subscriptions start_date <= end_date violations: 0
+[WARN] subscriptions where churn_date < start_date: 1466 (wrote diagnostics)
+[INFO] subscriptions mrr_amount non-negative check - negatives: 0
+[INFO] subscriptions arr_amount non-negative check - negatives: 0
+[MISSINGNESS] subscriptions columns >20% missing: end_date:43.46%, churn_date:29.50%
+[MISSINGNESS] accounts columns >20% missing: churn_date:34.21%, dirty_row_reason:65.79%
+[MISSINGNESS] usage_monthly OK
+[MISSINGNESS] feature_month OK
+[MISSINGNESS] first_use OK
+[MISSINGNESS] support_events columns >20% missing: priority_score:25.89%, satisfaction_score:42.06%, dirty_row_reason:57.20%
+VALIDATION VERDICT: PASS
