@@ -1,0 +1,5 @@
+feature_depth_bin,total_accounts,churned_accounts,churn_rate
+Low,134,67,0.5
+Med-Low,134,96,0.7164179104477612
+Med-High,134,93,0.6940298507462687
+High,133,96,0.7218045112781954
