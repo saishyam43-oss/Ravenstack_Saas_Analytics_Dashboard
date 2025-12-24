@@ -1,0 +1,5 @@
+subscription_status,subscriptions,avg_mrr,median_age
+active,1195,2670.813389121339,469.0
+churned,3920,2284.2089285714287,136.0
+closed,1,3184.0,105.0
+trial,234,0.0,30.0
