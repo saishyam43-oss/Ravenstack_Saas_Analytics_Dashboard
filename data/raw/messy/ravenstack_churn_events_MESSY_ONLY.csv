@@ -1,0 +1,61 @@
+churn_event_id,account_id,churn_date,reason_code,refund_amount_usd,preceding_upgrade_flag,preceding_downgrade_flag,is_reactivation,feedback_text,messiness_description
+C-1f5828,A-2edab2,2023-12-21,unknown,168.73,False,False,False,switched to competitor,no_issue
+C-000001,A-5790f4,2024-12-26,support,51.18,True,False,False,,null_feedback_text
+C-000002,A-b7724f,2023-08-25,unknown,52.88,False,False,False,missing features,no_issue
+C-bb9db4,A-659280,2024-11-22,pricing,27.75,False,False,False,switched to competitor,no_issue
+C-000003,A-bb1eaa,2024-08-15,pricing,0.0,False,True,False,too expensive,no_issue
+C-600a7c,A-9ee962,2024-10-03,support,0.0,False,True,False,,no_issue
+C-c89493,A-3ce5b8,2024-09-18,features,261.49,False,False,False,,null_feedback_text
+C-000004,A-3be56b,2024-01-10,competitor,0.0,True,False,False,,no_issue
+C-0a0bf7,A-d49cc5,2024-04-12,competitor,-0.0,False,False,False,missing features,negative_refund
+C-000005,A-b54c01,2024-10-23,budget,0.0,True,False,False,too expensive,no_issue
+C-000006,A-8e47ca,2024-06-01,competitor,0.0,False,False,False,missing features,no_issue
+C-000007,A-bf7919,2024-12-17,features,0.0,False,True,False,,null_feedback_text
+C-6c63bc,A-2e3bad,2024-03-30,features,0.0,False,False,False,missing features,no_issue
+C-885a34,A-71615e,2024-07-16,pricing,0.0,True,False,False,missing features,no_issue
+C-000008,A-65aeb5,2024-12-02,budget,0.0,True,False,True,missing features,no_issue
+C-000009,A-84ebe4,2024-01-05,budget,0.0,False,False,False,switched to competitor,no_issue
+C-00000a,A-78f02b,2024-12-02,,0.0,False,False,False,missing features,null_reason_code
+C-07be44,A-751c58,2024-11-05,budget,0.0,False,False,True,missing features,no_issue
+C-00000b,A-cdf020,2023-12-08,,105.26,False,False,False,too expensive,null_reason_code
+C-00000c,A-c222ab,2024-06-14,budget,4.52,False,False,False,,null_feedback_text
+C-00000d,A-b07346,2024-11-12,budget,0.0,False,False,False,missing features,no_issue
+C-00000e,A-0baac2,2024-09-30,pricing,0.0,False,False,False,too expensive,no_issue
+C-00000f,A-6f50ae,2023-11-06,,0.0,False,False,False,missing features,null_reason_code
+C-000010,A-dbc825,2024-02-03,,0.0,False,False,False,,null_reason_code
+C-000011,A-7988d1,2024-06-19,competitor,16.89,False,False,False,too expensive,no_issue
+C-000012,A-b30291,2024-09-03,competitor,277.54,False,True,False,too expensive,no_issue
+C-000013,A-098560,2024-09-04,pricing,0.0,False,False,False,too expensive,no_issue
+C-000014,A-18793f,2024-12-30,,25.41,True,False,False,,null_reason_code; null_feedback_text
+C-000015,A-b7ef83,2024-07-24,budget,60.25,True,False,False,,null_feedback_text
+C-000016,A-05f0e5,2024-11-25,,72.19,True,False,False,,null_reason_code
+C-000017,A-702032,2024-06-14,competitor,-0.0,False,False,False,switched to competitor,negative_refund
+C-8a3bc6,A-3b37d9,2024-10-13,support,0.0,False,False,False,switched to competitor,no_issue
+C-000018,A-31ab9a,2024-09-23,competitor,0.0,False,False,True,too expensive,no_issue
+C-57a768,A-702032,2024-04-18,,10.5,False,False,False,switched to competitor,null_reason_code
+C-000019,A-3b5cd1,2024-01-21,,0.0,True,False,False,missing features,null_reason_code
+C-00001a,A-b2af2e,2024-11-14,pricing,0.0,False,False,False,,no_issue
+C-70de89,A-039727,2024-12-22,pricing,46.49,False,False,False,,null_feedback_text
+C-00001b,A-fd7ad3,2024-11-23,,0.0,False,False,False,too expensive,null_reason_code
+C-00001c,A-05d3b3,2024-09-09,unknown,0.0,False,False,False,switched to competitor,no_issue
+C-00001d,A-4e0e85,2023-11-16,competitor,0.0,False,True,False,too expensive,no_issue
+C-00001e,A-dfbd31,2024-01-01,features,0.0,True,False,False,,null_feedback_text
+C-00001f,A-44dc83,2024-11-29,,98.48,False,True,False,missing features,null_reason_code
+C-000020,A-3f9cc0,2024-07-18,pricing,0.0,False,False,False,,null_feedback_text
+C-000021,A-e83938,2024-12-29,budget,13.5,False,False,False,,no_issue
+C-000022,A-0a282f,2024-10-06,features,0.0,False,False,False,switched to competitor,no_issue
+C-8ab44a,A-c58f49,2024-08-27,competitor,0.0,True,True,False,too expensive,no_issue
+C-9c899e,A-1e1b80,2024-10-14,competitor,0.0,False,False,False,,null_feedback_text
+C-000023,A-4e44e8,2024-10-11,,0.0,False,False,True,switched to competitor,null_reason_code
+C-0ba0a0,A-22d9d2,2024-10-17,pricing,0.0,False,False,False,,null_feedback_text
+C-000024,A-9b9fe9,2023-12-27,,27.92,False,False,False,,null_reason_code; null_feedback_text
+C-08d3b3,A-3f9cc0,2024-12-21,budget,0.0,False,False,True,switched to competitor,no_issue
+C-000025,A-ab438f,2024-12-02,budget,0.0,True,True,False,,null_feedback_text
+C-2cccb0,A-692f18,2024-12-23,support,0.0,True,False,False,switched to competitor,no_issue
+C-000026,A-54ecc2,2024-11-23,support,0.0,True,False,False,,no_issue
+C-a529cf,A-bb3bd4,2024-05-30,pricing,0.0,True,False,False,,null_feedback_text
+C-000027,A-038089,2024-10-21,competitor,0.0,False,False,False,,no_issue
+C-000028,A-151c9a,2023-11-04,,-35.6,False,False,False,missing features,null_reason_code; negative_refund
+C-7690f5,A-4c56c9,2024-04-05,budget,44.23,True,False,False,missing features,no_issue
+C-000029,A-53f4e3,2024-12-06,competitor,0.0,False,True,True,too expensive,no_issue
+C-00002a,A-c16101,2024-11-13,,0.0,False,False,True,,null_reason_code; null_feedback_text
