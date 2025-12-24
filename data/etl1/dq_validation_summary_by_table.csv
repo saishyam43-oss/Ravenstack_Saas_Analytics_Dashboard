@@ -1,0 +1,6 @@
+table_name,rows_before,rows_after,duplicates_removed,remaining_issues
+accounts,550,535,15,0
+subscriptions,5500,5350,150,0
+feature_usage,27500,26729,771,0
+support_tickets,2200,2140,60,0
+churn_events,660,642,18,0

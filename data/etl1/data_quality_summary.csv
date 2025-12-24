@@ -1,0 +1,6 @@
+table_name,completeness_before,completeness_after,completeness_improvement_pct,uniqueness,validity,consistency,final_quality_score,rows_before,rows_after,issues_before,issues_after,issues_reduction_pct
+accounts,0.997455,1.0,0.002552,1.0,0.866667,1.0,0.966667,550,535,557,0,1.0
+subscriptions,0.942693,1.0,0.060791,1.0,0.974995,1.0,0.993749,5500,5350,15497,0,1.0
+churn_events,0.961019,1.0,0.040562,1.0,0.928015,1.0,0.982004,660,642,844,0,1.0
+feature_usage,0.998938,1.0,0.001063,1.0,0.918023,0.855401,0.950586,27500,26729,678,0,1.0
+support_tickets,0.960289,1.0,0.041353,1.0,0.928538,1.0,0.982135,2200,2140,3182,0,1.0

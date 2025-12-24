@@ -1,0 +1,25 @@
+code,description
+duplicate_raw_keep_max_completeness,Dropped duplicate raw row
+blank_pk,Primary key blank
+country_imputed,Country imputed (cross-ref or Unknown)
+industry_imputed,Industry imputed (cross-ref or Unknown)
+native_churn_flag_true_but_no_event,Native churn flag TRUE but no churn event
+native_churn_flag_false_but_event_exists,Native churn flag FALSE but churn event exists
+blank_reason_code,Churn reason_code blank
+blank_feedback_text,Churn feedback blank
+negative_refund_amount_usd,Refund amount negative (corrected to abs)
+invalid_numeric_parsed,Numeric parse failed
+plan_tier_imputed_from_lookup,Plan tier imputed using lookup
+mrr_arr_imputed_from_lookup,MRR/ARR imputed from lookup or formula
+end_date_derived,Subscription end_date derived from account churn
+start_end_swapped_due_to_small_gap,Start/end swapped (gap < 30 days)
+start_after_end_flagged,Start_date > end_date and large gap
+feature_name_imputed,Feature name imputed as Unknown
+negative_usage_count,Usage count negative (corrected to abs)
+negative_usage_duration,Usage duration negative (corrected to abs)
+invalid_date_format,Date invalid (kept original)
+orphan_usage,Feature usage references missing subscription
+negative_resolution_time,Negative resolution hours
+priority_missing_flagged,Priority missing (flagged only)
+satisfaction_imputed,Satisfaction imputed as Unknown
+duplicate_after_cleaning_detected,Duplicate rows after cleaning

@@ -1,0 +1,14 @@
+table_name,column_name,dtype,min_val,max_val,avg_val,missing_pct,unique_pct
+accounts,country_clean,numeric,,,,0.0,0.013084112149532711
+accounts,industry_clean,text,,,,0.0,0.009345794392523364
+accounts,churn_flag_clean,text,,,,0.0,0.003738317757009346
+subscriptions,start_date,date,09-01-2023,31-12-2024,,0.0,0.11682242990654206
+subscriptions,end_date_clean,date,11-03-2023,30-01-2025,,0.43457943925233644,0.07177570093457944
+subscriptions,plan_tier_imputed,text,,,,0.0,0.0007476635514018691
+subscriptions,mrr_amount_clean,numeric,0.0,33830.0,2270.8233644859815,0.0,0.05719626168224299
+subscriptions,arr_amount_clean,numeric,0.0,405960.0,27249.880373831777,0.0,0.05719626168224299
+feature_usage,usage_date,date,01-01-2023,31-12-2024,,0.0,0.027348572711287367
+feature_usage,usage_count_clean,numeric,0.0,26.0,9.97852519735119,0.0,0.0010101388005537056
+feature_usage,usage_duration_secs_clean,numeric,0.0,12696.0,3023.2057690149277,0.0,0.1559729133151259
+support_tickets,resolution_hours_clean,numeric,1.0,72.0,35.86401869158878,0.0,0.03364485981308411
+churn_events,churn_date,date,25-01-2023,31-12-2024,,0.0,0.48442367601246106

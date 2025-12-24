@@ -1,0 +1,13 @@
+table_name,column_name,pct_missing,pct_invalid,pct_unique
+accounts,country_clean,0.0,0.0,0.013084112149532711
+accounts,industry_clean,0.0,0.0,0.009345794392523364
+accounts,churn_flag_clean,0.0,0.0,0.003738317757009346
+subscriptions,start_date,0.0,0.0,0.11682242990654206
+subscriptions,end_date_clean,0.0,0.0,0.07196261682242991
+subscriptions,plan_tier_imputed,0.0,0.0,0.0007476635514018691
+subscriptions,mrr_amount_clean,0.0,0.0,0.05719626168224299
+subscriptions,arr_amount_clean,0.0,0.0,0.05719626168224299
+feature_usage,usage_date,0.0,0.0,0.027348572711287367
+feature_usage,usage_count_clean,0.0,0.0,0.0010101388005537056
+feature_usage,usage_duration_secs_clean,0.0,0.0,0.1559729133151259
+support_tickets,resolution_hours_clean,0.0,0.0,0.03364485981308411
