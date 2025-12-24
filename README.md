@@ -3,7 +3,7 @@
 **Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS**
 
 <p align="center">
-  <img src="./logo.png" alt="Ravenstack Logo" width="160"/>
+  <img src="./logo.png" alt="Ravenstack Logo" />
 </p>
 
 ---
