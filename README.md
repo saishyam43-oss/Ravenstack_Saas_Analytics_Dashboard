@@ -86,9 +86,6 @@ The analysis is anchored around a focused set of North Star metrics that collect
 - **ARPU & LTV (Proxy)**  
   Used to compare customer segment value and prioritize investment.
 
-**Note:** Net Revenue Retention (NRR) and cohort calculations were implemented in Python  
-(see `src/03_eda1.py` and `src/04_eda2.py` for cohort and retention logic).
-
 These metrics guide every dashboard and insight in the project.
 
 ---
@@ -108,6 +105,9 @@ The analysis follows a **top-down diagnostic framework**, moving from growth out
 
 4. **Segment-Level Value & Efficiency Analysis**  
    Compares customer segments by lifetime value relative to operational cost.
+
+**Note:** Net Revenue Retention (NRR) and cohort-based retention metrics were computed using Python  
+(see `src/03_eda1.py` and `src/04_eda2.py` for cohort and retention logic).
 
 This structured approach ensures insights are **diagnostic and causal, not merely descriptive**.
 
