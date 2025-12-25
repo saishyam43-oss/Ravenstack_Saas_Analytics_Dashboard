@@ -183,3 +183,89 @@ This “Whale Hunt” strategy offers the most realistic path to stabilizing NRR
 </p>
 
 ---
+
+## 🔗 Cross-Dashboard Narrative: From Growth to Strategy
+
+Taken together, the four dashboards reveal a consistent story.
+
+Ravenstack’s **acquisition engine is efficient**, as reflected by a strong Quick Ratio and growing MRR. However, this efficiency masks a deeper issue: **customers churn faster than they realize value**, causing long-term revenue leakage.
+
+Retention analysis shows that churn is **front-loaded**, concentrated in the first few weeks of the customer lifecycle. Product usage data explains why: users are overwhelmed by feature breadth and fail to reach meaningful value quickly. As a result, engagement remains shallow and time-to-value exceeds time-to-churn by a wide margin.
+
+Segment-level analysis resolves the strategic tension. While SMB customers drive volume, **Enterprise customers deliver durable revenue with far greater efficiency**. Treating all segments equally has diluted focus and increased operational cost.
+
+The implication is clear: Ravenstack’s challenge is not growth, but **growth quality**. Solving retention and prioritizing high-value segments offers a far higher return than accelerating acquisition.
+
+---
+
+## 💡 Key Business Insights (Consolidated)
+
+- Growth is **efficient but fragile**, with churn offsetting acquisition gains over time.
+- Retention failures are **early-stage**, pointing to onboarding and expectation mismatch rather than long-term dissatisfaction.
+- Product usage does not naturally deepen over time, confirming a **time-to-value gap**.
+- Feature breadth without guidance increases churn instead of retention.
+- Enterprise customers generate outsized value relative to operational effort.
+- SMB growth adds volume but introduces disproportionate cost and revenue risk.
+
+---
+
+## 🧹 Data Quality & Cleaning Summary
+
+Before analysis, a dedicated data validation and cleaning pipeline (ETL1) was executed to ensure **accuracy, consistency, and auditability** across all datasets.
+
+A summary dashboard highlighting:
+- Data quality issues identified  
+- Corrections and imputations applied  
+- Validation coverage across core tables  
+
+is available here:
+
+📊 **[View Data Cleaning Summary Dashboard](./dashboards/00_data_cleaning_summary.png)**
+
+Detailed cleaning logic, validation outputs, and correction logs are documented in the `data/etl1/` and `excel/` folders.
+
+---
+
+## 🔮 What I’d Do Next With More Data
+
+With access to additional data, this analysis could be extended to:
+
+- **Session-level product logs**  
+  → Identify precise drop-off moments within onboarding and build early churn predictors.
+
+- **Contract terms and billing data**  
+  → Replace LTV proxies with true lifetime value and renewal risk modeling.
+
+- **Customer feedback and support sentiment**  
+  → Quantify qualitative friction points contributing to early churn.
+
+These additions would enable **predictive retention modeling and targeted intervention strategies**.
+
+---
+
+## ⚠️ Assumptions & Limitations
+
+- LTV is estimated using revenue proxies due to limited contract duration data.
+- Usage intensity is aggregated and does not reflect session-level behavior.
+- Retention analysis is based on observed churn events rather than predictive labels.
+- The company and data are fictional but structured to reflect real-world SaaS behavior.
+
+These limitations are acknowledged and do not invalidate the directional insights.
+
+---
+
+## 🧰 Technical Stack
+
+- **Data Validation & Summaries:** Excel  
+- **Data Processing & Feature Engineering:** Python  
+- **Visualization:** Tableau  
+- **Storage Format:** CSV-based, file-driven pipeline
+
+---
+
+## 👥 Stakeholder Lens
+
+This analysis is designed to support **Product, Growth, Customer Success, and Revenue leadership** in making informed decisions around retention, onboarding, and customer segment prioritization.
+
+---
+
