@@ -109,3 +109,77 @@ Together, these signals indicate that Ravenstack’s growth is **efficient but f
 <p align="center">
   <img src="./dashboards/01_the_north_star.png" alt="North Star Growth Dashboard" width="900"/>
 </p>
+
+---
+
+## 🪣 Retention Audit: The “Leaky Bucket” Diagnosis
+
+**Business Question**  
+Are customers leaving gradually over time, or is churn concentrated at specific moments in the lifecycle?
+
+### Key Findings
+- **73% lifetime churn** indicates that most acquired customers eventually exit the platform.
+- A significant share of churn occurs **within the first 7–30 days**, pointing to early disengagement rather than long-term dissatisfaction.
+- **Newer cohorts degrade nearly 2× faster** than older cohorts, suggesting that recent growth has come at the cost of retention quality.
+- Net Revenue Retention (NRR) shows a **steady downward trajectory**, with limited evidence of meaningful upsell or expansion.
+
+### Why This Matters
+High acquisition efficiency is negated if customers churn before delivering long-term value. Early churn signals an **expectation mismatch or onboarding failure**, not pricing or competitive pressure.
+
+Without intervention, continued acquisition will compound churn rather than compound growth.
+
+<p align="center">
+  <img src="./dashboards/02_the_leaky_bucket.png" alt="Retention Audit – Leaky Bucket" width="900"/>
+</p>
+
+---
+
+## ⏱️ Product Stickiness: The “Time-to-Value” Crisis
+
+**Business Question**  
+Do customers experience meaningful value from the product before deciding to churn?
+
+### Key Findings
+- Average **time-to-churn is ~7 days**, while average **time-to-first meaningful adoption is ~76 days**.
+- Users are making churn decisions **long before discovering product value**.
+- Usage intensity remains **flat over time**, indicating shallow engagement rather than progressive adoption.
+- Customers who explore more features (“Broad Explorers”) paradoxically show **higher churn**, suggesting confusion rather than value realization.
+- No single feature emerges as a clear “hero” driver of retention.
+
+### Why This Matters
+The product is failing to guide users to value quickly. Feature breadth without direction increases cognitive load, delaying value discovery and accelerating churn.
+
+This is not a feature quantity problem, but a **value delivery and onboarding design problem**.
+
+<p align="center">
+  <img src="./dashboards/03_the_stickiness.png" alt="Product Stickiness – Time-to-Value Crisis" width="900"/>
+</p>
+
+---
+
+## 🐋 Strategic Opportunity: The “Whale Hunt” Initiative
+
+**Business Question**  
+Are all customers equally valuable, or should Ravenstack focus on a narrower, higher-impact segment?
+
+### Key Findings
+- The **top 10% of customers drive ~47% of total revenue**, indicating heavy revenue concentration.
+- **Enterprise customers generate ~3,000× more revenue per support ticket** compared to SMBs.
+- Enterprise cohorts show **NRR stabilization post-onboarding**, while SMB cohorts continue to contract.
+- SMB customers represent the majority of volume but deliver **low lifetime value and high operational cost**.
+
+### Why This Matters
+Not all growth is equal. Treating all segments identically dilutes focus and increases operational drag.
+
+The data supports a clear strategic pivot:
+- **Prioritize Enterprise retention and expansion**
+- **Aggressively migrate SMB customers to self-serve**
+- Align Product, CS, and Growth efforts around high-LTV accounts
+
+This “Whale Hunt” strategy offers the most realistic path to stabilizing NRR and reducing churn-driven revenue loss.
+
+<p align="center">
+  <img src="./dashboards/04_the_opportunity.png" alt="Strategic Opportunity – Whale Hunt" width="900"/>
+</p>
+
+---
