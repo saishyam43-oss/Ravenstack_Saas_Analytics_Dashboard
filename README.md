@@ -10,11 +10,6 @@
 
 ---
 
-## The Growth Paradox: High Revenue, Higher Risk  
-**Analyzing the disconnect between Enterprise growth and severe customer attrition risk**
-
----
-
 ## ⚡ Executive TL;DR
 
 **The Problem**  
