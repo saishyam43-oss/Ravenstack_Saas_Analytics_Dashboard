@@ -8,9 +8,23 @@
 
 ---
 
+## ⚡ Executive TL;DR
+
+**The Problem**  
+Strong acquisition masked a retention crisis. Despite rapid customer growth, Net Revenue Retention (NRR) flattened and lifetime churn reached **73%**, threatening long-term revenue stability.
+
+**The Diagnosis**  
+Churn was heavily **front-loaded**. Nearly **60% of users exited within the first 30 days**, driven by product complexity and a severe **time-to-value gap** (users churned ~7 days in, while meaningful value arrived ~76 days later).
+
+**The Solution**  
+A clear **“Whale Hunt” strategy** emerged. While SMBs drove volume, **Enterprise customers (≈22% of users) generated ≈47% of revenue** with **~3,000× higher support efficiency**, making them the most defensible path to sustainable growth.
+
+---
+
 ## 🏢 Client Background & Analytics Context
 
-**Ravenstack** is a fictional B2B SaaS company operating on a subscription-based revenue model with multiple plan tiers (SMB, Mid-Market, Enterprise). The company has successfully scaled customer acquisition and revenue but is experiencing **increasing uncertainty around growth quality and customer retention**.
+Ravenstack is a fictional **B2B subscription-based SaaS company** operating across multiple plan tiers (SMB, Mid-Market, Enterprise).  
+As the business enters a **scaling phase**, leadership faces growing **churn risk** and requires cross-functional visibility across **Product, Growth, Customer Success, and Revenue teams**.
 
 As the business enters a scaling phase, leadership requires deeper visibility into whether:
 - Whether revenue growth is sustainable
@@ -72,6 +86,9 @@ The analysis is anchored around a focused set of North Star metrics that collect
 - **ARPU & LTV (Proxy)**  
   Used to compare customer segment value and prioritize investment.
 
+**Note:** Net Revenue Retention (NRR) and cohort calculations were implemented in Python  
+(see `src/03_eda1.py` and `src/04_eda2.py` for cohort and retention logic).
+
 These metrics guide every dashboard and insight in the project.
 
 ---
@@ -112,7 +129,7 @@ Together, these signals indicate that Ravenstack’s growth is **efficient but f
 
 ---
 
-## 🪣 Retention Audit: The “Leaky Bucket” Diagnosis
+## 🪣 Retention Audit: The “Leaky Bucket” (Churn Is Front-Loaded)
 
 **Business Question**  
 Are customers leaving gradually over time, or is churn concentrated at specific moments in the lifecycle?
@@ -134,7 +151,7 @@ Without intervention, continued acquisition will compound churn faster than it c
 
 ---
 
-## ⏱️ Product Stickiness: The “Time-to-Value” Crisis
+## ⏱️ Product Stickiness: The “Time-to-Value” Crisis (Value Arrives Too Late)
 
 **Business Question**  
 Do customers experience meaningful value from the product before deciding to churn?
@@ -157,7 +174,7 @@ This is not a feature quantity problem, but a **value delivery and onboarding de
 
 ---
 
-## 🐋 Strategic Opportunity: The “Whale Hunt” Initiative
+## 🐋 Strategic Opportunity: The “Whale Hunt” (Pivoting from Volume to Value)
 
 **Business Question**  
 Are all customers equally valuable, or should Ravenstack focus on a narrower, higher-impact segment?
@@ -251,6 +268,22 @@ These additions would enable **predictive retention modeling and targeted interv
 - The company and data are fictional but structured to reflect real-world SaaS behavior.
 
 These limitations are acknowledged and do not invalidate the directional insights.
+
+---
+
+## 📂 Repository Structure
+
+The repository is organized to reflect a real-world analytics workflow, separating raw data, transformation logic, and business outputs.
+
+├── data/            # Raw, cleaned, and feature-engineered datasets (CSV)
+│   ├── raw/         # Original and intentionally messy source data
+│   ├── etl1/        # Cleaning, validation, and data quality outputs
+│   └── etl2/        # Feature engineering and analysis-ready datasets
+├── src/             # Python scripts for ETL and EDA
+├── dashboards/      # Final dashboard images (Excel + Tableau)
+└── README.md        # Project documentation and narrative
+
+This structure ensures transparency, reproducibility, and easy navigation for both technical and non-technical reviewers.
 
 ---
 
