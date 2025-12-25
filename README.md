@@ -1,6 +1,8 @@
 # Ravenstack SaaS Growth & Retention Analytics
 
-**Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS business**
+> *Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS business*
+
+---
 
 <p align="center">
   <img src="./logo.png" alt="Ravenstack Logo" width="500"/>
@@ -8,7 +10,7 @@
 
 ---
 
-## ⚡ Executive TL;DR
+## ⚡ **Executive TL;DR**
 
 **The Problem**  
 Strong acquisition masked a retention crisis. Despite rapid customer growth, Net Revenue Retention (NRR) flattened and lifetime churn reached **73%**, threatening long-term revenue stability.
@@ -21,7 +23,7 @@ A clear **“Whale Hunt” strategy** emerged. While SMBs drove volume, **Enterp
 
 ---
 
-## 🏢 Client Background & Analytics Context
+## 🏢 **Client Background & Analytics Context**
 
 Ravenstack is a fictional **B2B subscription-based SaaS company** operating across multiple plan tiers (SMB, Mid-Market, Enterprise).  
 As the business enters a **scaling phase**, leadership faces growing **churn risk** and requires cross-functional visibility across **Product, Growth, Customer Success, and Revenue teams**.
@@ -42,7 +44,7 @@ This analysis was commissioned to support **cross-functional decision-making**, 
 
 ---
 
-## 🎯 Business Problem & Objective
+## 🎯 **Business Problem & Objective**
 
 ### Business Problem
 Despite strong headline revenue growth, Ravenstack faces several unresolved risks:
@@ -226,7 +228,7 @@ The implication is clear: Ravenstack’s challenge is not growth, but **growth q
 
 ---
 
-## 🧹 Data Quality & Cleaning Summary
+## 🧹 **Data Quality & Cleaning Summary**
 
 Before analysis, a dedicated data validation and cleaning pipeline (ETL1) was executed to ensure **accuracy, consistency, and auditability** across all datasets and establish a **reliable analytical foundation**.
 
@@ -243,7 +245,7 @@ Detailed cleaning logic, validation outputs, and correction logs are documented 
 
 ---
 
-## 🔮 What I’d Do Next With More Data
+## 🔮 **What I’d Do Next With More Data**
 
 With access to additional data, this analysis could be extended to:
 
@@ -260,7 +262,7 @@ These additions would enable **predictive retention modeling and targeted interv
 
 ---
 
-## ⚠️ Assumptions & Limitations
+## ⚠️ **Assumptions & Limitations**
 
 - LTV is estimated using revenue proxies due to limited contract duration data.
 - Usage intensity is aggregated and does not reflect session-level behavior.
@@ -271,10 +273,12 @@ These limitations are acknowledged and do not invalidate the directional insight
 
 ---
 
-## 📂 Repository Structure
+## 📂 **Repository Structure**
 
 The repository is organized to reflect a real-world analytics workflow, separating raw data, transformation logic, and business outputs.
 
+```markdown
+📦 Project Root
 ├── data/            # Raw, cleaned, and feature-engineered datasets (CSV)
 │   ├── raw/         # Original and intentionally messy source data
 │   ├── etl1/        # Cleaning, validation, and data quality outputs
@@ -282,12 +286,13 @@ The repository is organized to reflect a real-world analytics workflow, separati
 ├── src/             # Python scripts for ETL and EDA
 ├── dashboards/      # Final dashboard images (Excel + Tableau)
 └── README.md        # Project documentation and narrative
+```
 
 This structure ensures transparency, reproducibility, and easy navigation for both technical and non-technical reviewers.
 
 ---
 
-## 🧰 Technical Stack
+## 🧰 **Technical Stack**
 
 - **Data Validation & Summaries:** Excel  
 - **Data Processing & Feature Engineering:** Python  
@@ -296,9 +301,25 @@ This structure ensures transparency, reproducibility, and easy navigation for bo
 
 ---
 
-## 👥 Stakeholder Lens
+## 👥 **Stakeholder Lens**
 
 This analysis is designed to support **Product, Growth, Customer Success, and Revenue leadership** in making informed decisions around retention, onboarding, and customer segment prioritization.
 
 ---
+
+## ⭐ **Call-to-Action**
+
+```markdown
+# 📢 Call to Action
+
+If you would like to:
+- Explore the dataset in detail  
+- Request a walkthrough of the dashboard  
+- Discuss how to build similar BI solutions  
+- Collaborate on analytics or portfolio projects  
+
+Feel free to reach out or open an issue in the repository.
+
+🚀 **Happy analyzing!**
+```
 
