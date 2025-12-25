@@ -13,10 +13,10 @@
 ## ⚡ **Executive TL;DR**
 
 **The Problem**  
-Strong acquisition masked a retention crisis. Despite rapid customer growth, Net Revenue Retention (NRR) flattened and lifetime churn reached **73%**, threatening long-term revenue stability.
+Efficient acquisition masked a retention crisis. Despite rapid customer growth, Net Revenue Retention (NRR) flattened and lifetime churn reached **73%**, threatening long-term revenue stability.
 
 **The Diagnosis**  
-Churn was heavily **front-loaded**. Nearly **60% of users exited within the first 30 days**, driven by product complexity and a severe **time-to-value gap** (users churned ~7 days in, while meaningful value arrived ~76 days later).
+Churn was heavily **front-loaded**, with the highest attrition occurring in the **first 7–30 days of the subscription lifecycle**, driven by product complexity and a severe **time-to-value gap** (meaningful value arriving ~76 days later).
 
 **The Solution**  
 A clear **“Whale Hunt” strategy** emerged. While SMBs drove volume, **Enterprise customers (≈22% of users) generated ≈47% of revenue** with **~3,000× higher support efficiency**, making them the most defensible path to sustainable growth.
