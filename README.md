@@ -1,6 +1,6 @@
 # Ravenstack SaaS Growth & Retention Analytics
 
-**Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS**
+**Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS business**
 
 <p align="center">
   <img src="./logo.png" alt="Ravenstack Logo" width="500"/>
@@ -12,7 +12,7 @@
 
 **Ravenstack** is a fictional B2B SaaS company operating on a subscription-based revenue model with multiple plan tiers (SMB, Mid-Market, Enterprise). The company has successfully scaled customer acquisition and revenue but is experiencing **increasing uncertainty around growth quality and customer retention**.
 
-As the business enters a scaling phase, leadership requires deeper visibility into:
+As the business enters a scaling phase, leadership requires deeper visibility into whether:
 - Whether revenue growth is sustainable
 - Where and why customers churn
 - Whether product usage translates into long-term value
@@ -38,7 +38,7 @@ Despite strong headline revenue growth, Ravenstack faces several unresolved risk
 - A small segment of customers contributes a disproportionate share of revenue
 
 These signals raise a critical question:  
-**Is Ravenstack scaling efficiently, or accumulating hidden risk beneath top-line growth?**
+**Is Ravenstack scaling efficiently, or accumulating hidden risk beneath strong top-line growth?**
 
 ### Objective
 The objective of this analysis is to:
@@ -52,7 +52,7 @@ The objective of this analysis is to:
 
 ## ⭐ North Star Metrics & Analytical Focus
 
-The analysis is anchored around a focused set of **North Star metrics** that collectively describe growth health, retention strength, and customer value:
+The analysis is anchored around a focused set of North Star metrics that collectively describe growth health, retention strength, and customer value:
 
 - **Total Monthly Recurring Revenue (MRR)**  
   Measures business scale and revenue concentration risk.
@@ -92,7 +92,7 @@ The analysis follows a **top-down diagnostic framework**, moving from growth out
 4. **Segment-Level Value & Efficiency Analysis**  
    Compares customer segments by lifetime value relative to operational cost.
 
-This structured approach ensures insights are **causal, not descriptive**.
+This structured approach ensures insights are **diagnostic and causal, not merely descriptive**.
 
 ---
 
@@ -100,7 +100,7 @@ This structured approach ensures insights are **causal, not descriptive**.
 
 At a surface level, Ravenstack appears healthy, with strong MRR growth and a Quick Ratio consistently above 3.0, indicating efficient acquisition.
 
-However, deeper analysis reveals a critical imbalance. **Lifetime churn reaches 73%**, meaning the majority of acquired customers eventually exit the platform, significantly eroding long-term value. A large share of churn occurs within the **first 7–30 days**, pointing to onboarding and expectation mismatch rather than pricing or competition.
+However, deeper analysis reveals a critical structural imbalance. **Lifetime churn reaches 73%**, meaning the majority of acquired customers eventually exit the platform, significantly eroding long-term value. A large share of churn occurs within the **first 7–30 days**, pointing to onboarding and expectation mismatch rather than pricing or competition.
 
 Product analysis shows that users often churn **before discovering meaningful value**, with average time-to-value far exceeding the time it takes customers to decide to leave. Meanwhile, revenue is increasingly concentrated among a small set of high-value Enterprise customers, creating both opportunity and risk.
 
@@ -126,7 +126,7 @@ Are customers leaving gradually over time, or is churn concentrated at specific 
 ### Why This Matters
 High acquisition efficiency is negated if customers churn before delivering long-term value. Early churn signals an **expectation mismatch or onboarding failure**, not pricing or competitive pressure.
 
-Without intervention, continued acquisition will compound churn rather than compound growth.
+Without intervention, continued acquisition will compound churn faster than it compounds growth.
 
 <p align="center">
   <img src="./dashboards/02_the_leaky_bucket.png" alt="Retention Audit – Leaky Bucket" width="900"/>
@@ -147,7 +147,7 @@ Do customers experience meaningful value from the product before deciding to chu
 - No single feature emerges as a clear “hero” driver of retention.
 
 ### Why This Matters
-The product is failing to guide users to value quickly. Feature breadth without direction increases cognitive load, delaying value discovery and accelerating churn.
+The product is failing to guide users to value quickly. Feature breadth without guidance increases cognitive load, delaying value discovery and accelerating churn.
 
 This is not a feature quantity problem, but a **value delivery and onboarding design problem**.
 
@@ -171,7 +171,7 @@ Are all customers equally valuable, or should Ravenstack focus on a narrower, hi
 ### Why This Matters
 Not all growth is equal. Treating all segments identically dilutes focus and increases operational drag.
 
-The data supports a clear strategic pivot:
+The data supports a clear, defensible strategic pivot:
 - **Prioritize Enterprise retention and expansion**
 - **Aggressively migrate SMB customers to self-serve**
 - Align Product, CS, and Growth efforts around high-LTV accounts
@@ -211,7 +211,7 @@ The implication is clear: Ravenstack’s challenge is not growth, but **growth q
 
 ## 🧹 Data Quality & Cleaning Summary
 
-Before analysis, a dedicated data validation and cleaning pipeline (ETL1) was executed to ensure **accuracy, consistency, and auditability** across all datasets.
+Before analysis, a dedicated data validation and cleaning pipeline (ETL1) was executed to ensure **accuracy, consistency, and auditability** across all datasets and establish a **reliable analytical foundation**.
 
 A summary dashboard highlighting:
 - Data quality issues identified  
@@ -259,7 +259,7 @@ These limitations are acknowledged and do not invalidate the directional insight
 - **Data Validation & Summaries:** Excel  
 - **Data Processing & Feature Engineering:** Python  
 - **Visualization:** Tableau  
-- **Storage Format:** CSV-based, file-driven pipeline
+- **Storage Format:** CSV-based, file-driven analytics pipeline
 
 ---
 
