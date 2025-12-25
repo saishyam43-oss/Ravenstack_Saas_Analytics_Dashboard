@@ -133,7 +133,9 @@ Growth is **efficient but fragile**. Without retention improvements and customer
 
 ## 🪣 Retention Audit: The “Leaky Bucket” (Churn Is Front-Loaded)
 
-*Following the North Star assessment of fragile growth, this section examines **when** customers disengage during the subscription lifecycle.*
+> *Following the North Star assessment of fragile growth, this section examines **when** customers disengage during the subscription lifecycle.*
+
+---
 
 <p align="center">
   <img src="dashboards/02_the_leaky_bucket.png"/>
@@ -161,7 +163,9 @@ Early subscription exits signal **expectation mismatch or onboarding gaps**, whi
 
 ## ⏱️ Product Stickiness: The “Time-to-Value” Crisis (Value Arrives Too Late)
 
-*After identifying **when** users disengage, this section examines **why** retention fails at the product level.*
+> *After identifying **when** users disengage, this section examines **why** retention fails at the product level.*
+
+---
 
 <p align="center">
   <img src="dashboards/03_the_stickiness.png"/>
@@ -185,7 +189,9 @@ Broad exploration reflects **cognitive overload**, not product stickiness. Users
 
 ## 🐋 Strategic Opportunity: The “Whale Hunt” (Pivoting from Volume to Value)
 
-*With root causes identified, this section evaluates **where** Ravenstack should focus to maximize durable growth.*
+> *With root causes identified, this section evaluates **where** Ravenstack should focus to maximize durable growth.*
+
+---
 
 <p align="center">
   <img src="dashboards/04_the_opportunity.png"/>
@@ -298,6 +304,7 @@ The repository is organized to reflect a real-world analytics workflow, separati
 │   └── etl2/        # Feature engineering and analysis-ready datasets
 ├── src/             # Python scripts for ETL and EDA
 ├── dashboards/      # Final dashboard images (Excel + Tableau)
+├── excel/           # Excel files related to data cleaning
 └── README.md        # Project documentation and narrative
 ```
 
