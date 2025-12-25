@@ -29,7 +29,7 @@ Ravenstack must shift from **volume-led acquisition** to **retention-first, valu
 **Client:** Ravenstack (fictional SaaS company)  
 **Business Model:** Subscription-based B2B SaaS
 
-As the business enters a scaling phase, leadership requires deeper visibility into whether:
+As the business enters a scaling phase, leadership requires deeper visibility into:
 - Whether revenue growth is sustainable
 - Where and why customers churn
 - Whether product usage translates into long-term value
@@ -220,7 +220,7 @@ Taken together, the four dashboards reveal a consistent story.
 
 Ravenstack’s **acquisition engine is efficient**, as reflected by a strong Quick Ratio and growing MRR. However, this efficiency masks a deeper issue: **customers disengage or exit before they realize meaningful value**, causing long-term revenue leakage.
 
-Retention analysis shows that churn is **front-loaded**, concentrated in the first few weeks of the customer lifecycle. Product usage data explains why: users are overwhelmed by feature breadth and fail to reach meaningful value quickly. As a result, engagement remains shallow and time-to-value exceeds time-to-churn by a wide margin.
+Retention analysis shows that churn is **front-loaded**, concentrated in the first few weeks of the customer lifecycle. Product usage data explains why: users are overwhelmed by feature breadth and fail to reach meaningful value quickly. As a result, engagement remains shallow and time-to-value exceeds time-to-disengagement by a wide margin.
 
 Segment-level analysis resolves the strategic tension. While SMB customers drive volume, **Enterprise customers deliver durable revenue with far greater efficiency**. Treating all segments equally has diluted focus and increased operational cost.
 
