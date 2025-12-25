@@ -4,9 +4,13 @@
 
 ---
 
+<div align="center">
+
 <p align="center">
   <img src="./logo.png" alt="Ravenstack Logo" width="500"/>
 </p>
+
+</div>
 
 ---
 
