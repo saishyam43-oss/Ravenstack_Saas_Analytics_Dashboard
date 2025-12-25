@@ -109,7 +109,7 @@ The analysis follows a **top-down diagnostic framework**, moving from growth out
    Compares customer segments by lifetime value relative to operational cost.
 
 **Note:** Net Revenue Retention (NRR) and cohort-based retention metrics were computed using Python  
-(see `src/03_eda1.py` and `src/04_eda2.py` for cohort and retention logic).
+(see [`src/03_eda1.py`](src/03_eda1.py) and [`src/04_eda2.py`](src/04_eda2.py) for cohort and retention logic).
 
 This structured approach ensures insights are **diagnostic and causal, not merely descriptive**.
 
