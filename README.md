@@ -6,7 +6,6 @@
 
 <p align="center">
   <img src="logo.png" width="500"/>
-  <h1 align="center">RAVENSTACK</h1>
 </p>
 
 ---
