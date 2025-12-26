@@ -11,7 +11,7 @@
 
 ---
 
-## ⚡ Executive TL;DR
+## ⚡ Executive Snapshot
 
 **The Problem**  
 At a surface level, **Ravenstack appears healthy**, with strong MRR growth and high acquisition efficiency (Quick Ratio ≈ 3.0). However, this growth masks a **structural imbalance**: approximately **66% of acquired accounts eventually churn**, preventing acquisition-led growth from compounding into durable long-term value.
