@@ -12,6 +12,22 @@
 
 ---
 
+## 🧭 Decision Summary
+
+**Primary Decision:** Pivot Ravenstack from volume-led acquisition to Enterprise-led, retention-first growth.
+
+**Why:** Acquisition efficiency masks a structural retention failure, ~66% of accounts churn before delivering durable value.
+
+**Core Insight:** Churn is front-loaded and driven by delayed time-to-value and unfocused product usage, not long-term dissatisfaction.
+
+**Strategic Trade-off:** Accept slower top-line growth by deprioritizing SMB volume to protect long-term revenue durability.
+
+**Primary Action:** Re-center Product, Growth, and Customer Success around Enterprise onboarding, activation, and expansion.
+
+**Owner:** Product Analytics / Growth Strategy
+
+---
+
 ## ⚡ Executive Snapshot
 
 **The Problem**  
@@ -237,6 +253,60 @@ The implication is clear: Ravenstack’s challenge is not growth, but **growth q
 - Feature breadth without guidance increases churn instead of retention.
 - Enterprise customers generate outsized value relative to operational effort.
 - SMB growth adds volume but introduces disproportionate cost and revenue risk.
+
+---
+
+## 🧭 The Decision This Analysis Forces
+
+Ravenstack cannot simultaneously optimize for high-volume SMB acquisition and durable revenue growth.
+
+This analysis forces a clear strategic choice.
+
+---
+
+### 1️⃣ Stop Optimizing for Volume-Led Growth
+
+SMB acquisition drives top-line growth but contributes disproportionately to early churn, operational load, and weak Net Revenue Retention.
+
+**Decision:**  
+Deprioritize SMB volume as a primary growth lever.
+
+**Explicit Sacrifice:**  
+Slower logo growth and lower short-term MRR acceleration.
+
+---
+
+### 2️⃣ Commit to Enterprise-Led Durability
+
+Enterprise accounts demonstrate superior retention, expansion behavior, and revenue efficiency per operational touch.
+
+**Decision:**  
+Re-center growth strategy around Enterprise acquisition, onboarding, and expansion.
+
+**Primary Metric Owner:**  
+Net Revenue Retention (NRR)
+
+---
+
+### 3️⃣ Treat Time-to-Value as a First-Class Growth Constraint
+
+Users disengage before meaningful value is realized, making acquisition efficiency irrelevant beyond the first few weeks.
+
+**Decision:**  
+Shift Product and CS priorities from feature breadth to accelerated, opinionated time-to-value.
+
+**Primary Metric Owner:**  
+Time-to-First-Value
+
+---
+
+## 🚫 What This Strategy Requires Us to Stop Doing
+
+- Treating all customer segments as equally valuable  
+- Optimizing acquisition efficiency without retention durability  
+- Measuring growth primarily through logo count or gross MRR  
+- Shipping onboarding experiences that prioritize exploration over value anchoring  
+- Allowing SMB churn to subsidize the appearance of growth
 
 ---
 
