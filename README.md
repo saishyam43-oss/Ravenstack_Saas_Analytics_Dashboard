@@ -1,4 +1,4 @@
-# Ravenstack SaaS Analytics: Growth, Retention & Strategic Focus
+<h1 align="center"> Ravenstack SaaS Analytics: Growth, Retention & Strategic Focus </h1>
 
 > *This project evaluates whether Ravenstack’s SaaS growth is structurally durable and forces a strategic choice between volume-led acquisition and Enterprise-led retention.*
 
