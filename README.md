@@ -1,6 +1,6 @@
 # Ravenstack SaaS Analytics: Growth, Retention & Strategic Focus
 
-> *Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS business*
+> *This project evaluates whether Ravenstack’s SaaS growth is structurally durable and forces a strategic choice between volume-led acquisition and Enterprise-led retention.*
 
 ![Status: Diagnosis](https://img.shields.io/badge/Status-Diagnosis_Complete-success) ![Focus: Retention](https://img.shields.io/badge/Focus-Retention_%26_Growth-blue) ![Outcome: Strategy_Pivot](https://img.shields.io/badge/Outcome-Strategy_Pivot-orange)
 
