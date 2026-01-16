@@ -2,6 +2,8 @@
 
 > *Diagnosing growth quality, churn risk, and product value delivery in a subscription SaaS business*
 
+![Status: Diagnosis](https://img.shields.io/badge/Status-Diagnosis_Complete-success) ![Focus: Retention](https://img.shields.io/badge/Focus-Retention_%26_Growth-blue) ![Outcome: Strategy_Pivot](https://img.shields.io/badge/Outcome-Strategy_Pivot-orange)
+
 ---
 
 <p align="center">
